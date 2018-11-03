@@ -1,10 +1,11 @@
 
 #include<stdio.h>
+int per[2002][2002]={0};
 void main()
 {
     int trucks,roads,permits,i,x,y,cap,years,j,k,counter=0,r,p;
     scanf("%d %d %d",&trucks,&roads,&permits);
-    int per[2002][2002]={0} ,capacity[2002],copyofcapacity[2002];
+     int capacity[2002],copyofcapacity[2002];
     for(i=1;i<=trucks;i++)
         {
             for(j=1;j<=roads;j++)
