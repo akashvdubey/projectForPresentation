@@ -1,0 +1,151 @@
+body{
+  position: absolute;
+  height: auto;
+  width: 1330px;
+  background-color: white;
+}
+.logo
+{
+  text-decoration: none;
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  \\border:2px solid grey;
+
+}
+.headingOfLogin
+{
+  font-size: 45px;
+  text-transform: capitalize;
+  font-family: Montserrat,sans-serif;
+  text-shadow: 3px 4px 1px grey;
+}
+#cross
+{
+  position: absolute;
+  right:-10px;
+  top:-10px;
+
+  float:right;
+  height: 20px;
+  width: 20px;
+}
+
+.logo
+{
+  font-size: 40px;
+  padding:10px;
+  \\border:2px solid yellow;
+}
+
+a:hover,.logo:hover
+{
+  color:green;
+}
+.username,.password
+{
+  width:400px;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:2px solid gray;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Montserrat,sans-serif;
+
+
+}
+.username:hover,.password:hover
+{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:2px solid black;
+}
+.username:active,.password:active
+{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:2px solid red;
+}
+.forget,#signuplink
+{
+  float:right;
+  text-decoration: none;
+  font-family: Montserrat,sans-serif;
+
+}
+fieldset
+{
+  position: absolute;
+  top:50px;
+  left:20px;
+  border:none;
+}
+
+
+.container
+{
+  position: absolute;
+  top:200px;
+  left: 165px;
+  height: 300px;
+  width: 1000px;
+  background-color: white;
+  box-shadow: 10px 10px 5px gray;
+
+}
+.login
+{
+  position: absolute;
+  height:300px;
+  width:50%;
+  background-color:white;
+  border-right: 2px solid black;
+  border-left:1px solid grey;
+}
+.continueWithFacebook,.continueWithgoogle
+{
+  position: absolute;
+  display: block;
+  right:70px;
+  height: 40px;
+  width: 330px;
+  border-radius: 8px;
+}
+.continueWithgoogle
+{
+  top:50px;
+  background-color: rgba(255,0,0,0.7);
+
+}
+.continueWithFacebook
+{
+  top:100px;
+  background-color: rgba(0,0,255,0.7);
+}
+.signup
+{
+  position:absolute;
+  right:0px;
+}
+#or,#signuplink
+{
+  position: absolute;
+  top:150px;
+  right:230px;
+}
+#signuplink
+{
+  text-transform:capitalize;
+  right:200px;
+  width:70px;
+  display: inline-block;
+  \\border: 1px solid red;
+  top:180px;
+}

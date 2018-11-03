@@ -1,0 +1,85 @@
+main{
+  position:absolute;
+  top:100px;
+  width:inherit;
+  height:auto;
+  background-color:#000;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+
+}
+nav{
+  display: inline-block;
+  float:right;
+  padding-top:0px;
+  margin: 0px;
+  \\border: 2px solid green;
+}
+
+li
+{
+  display: inline-block;
+  margin:0px;
+  padding:4px;
+\\  border:2px solid blue;
+}
+
+a,.logo
+{
+  padding:0px;
+  text-decoration: none;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  \\border:1px solid grey;
+
+}
+.logo
+{
+  font-size: 40px;
+  padding:10px;
+  \\border:2px solid yellow;
+}
+ul
+{
+  padding:0px;
+\\  border:1px solid yellow;
+}
+a:hover
+{
+  color:green;
+}
+#nextbutton{
+  border-radius: 10px;
+  background-color: rgb(5,166,240);
+  border-style: ridge;
+  font-weight: bold;
+}
+body{
+  height:720px;
+  width:1320px;
+  background-color:rgba(00,00,00);
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding:0;
+  font-family: sans-serif;
+}
+#headline{
+  position: fixed;
+  margin:0;
+  padding: 0;
+  width:1320px;
+  height:40px;
+
+}
+header{
+  display: inline-block;
+}
+
+
+
+
+
+.contact{
+  width:140 px;
+}

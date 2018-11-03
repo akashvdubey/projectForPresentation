@@ -1,0 +1,19 @@
+fieldset
+{
+  position: absolute;
+  height: 600px;
+  width: 800px;
+  background-color: white;
+  background-image: image("73064(1).jpg");
+\\  box-shadow: 10px 10px 5px grey;
+color:white;
+
+}
+
+fieldset:hover
+{
+box-shadow: 30px 30px 15px grey;
+color:red;
+margin-left: 100px;
+transition: 2s ease-out;
+}
