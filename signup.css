@@ -1,19 +1,37 @@
-fieldset
+#registrationHeader
 {
   position: absolute;
-  height: 600px;
-  width: 800px;
-  background-color: white;
+  right:65px;
+  top:40px;
+  border:1px solid white;
+  height: 560px;
+  width: 1200px;
+  background-color:#373836;
   background-image: image("73064(1).jpg");
 \\  box-shadow: 10px 10px 5px grey;
 color:white;
 
 }
 
-fieldset:hover
+fieldset
 {
-box-shadow: 30px 30px 15px grey;
-color:red;
-margin-left: 100px;
-transition: 2s ease-out;
+  position:absolute;
+  top:100px;
+ right:0;
+border:none;
+}
+#signUpHeader
+{
+
+  position: absolute;
+  font-family: Montserrat;
+  left:100px;
+  top:100px;
+  \\border:1px solid white;
+}
+input,label
+{
+border:none;
+background-color: rgba(0,0,0,0);
+border-bottom: 2px solid black;
 }
