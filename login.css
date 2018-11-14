@@ -54,7 +54,7 @@ a:hover,.logo:hover
   border-bottom:2px solid gray;
   font-size: 22px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: Montserrat,sans-serif;
 
 
@@ -148,4 +148,17 @@ fieldset
   display: inline-block;
   \\border: 1px solid red;
   top:180px;
+}
+
+#button
+{
+  font-family: Montserrat;
+  margin: 4px;
+  padding:4px;
+  width:100px;
+}
+#button:hover
+{
+  border:1px solid grey;
+  box-shadow: 3px 3px 6px grey;
 }
