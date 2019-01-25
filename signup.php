@@ -16,12 +16,13 @@ if(isset($_POST["b"]))
     die('Could not connect: ' . mysqli_error());
   }
   mysqli_select_db( $con,"laundry");
-  $sql="insert into details value('$fname', '$lname', '$phone','$mail', '$dob');";
-  mysqli_query($con,$sql);
-  if(mysqli_affected_rows($con)>0)
+  $sql="insert into details (fname,lname,phone,email,dob) values('akash', 'dubey','1245789631','akashvdubey@gmail.com', '1988-01-01')";
+
+  if(mysqli_query($con,$sql)==TRUE)
     echo "Record Inserted";
 
   else
     echo "Record Not Inserted";
 }
+
 ?>

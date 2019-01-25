@@ -6,14 +6,15 @@ main{
   background-color:#000;
   font-family: 'Montserrat', sans-serif;
   color:white;
-
 }
-nav{
+
+nav
+{
   display: inline-block;
   float:right;
   padding-top:0px;
   margin: 0px;
-  \\border: 2px solid green;
+ \\border: 2px solid green;
 }
 
 li
@@ -80,6 +81,7 @@ header{
 
 
 
-.contact{
+.contact
+{
   width:140 px;
 }
