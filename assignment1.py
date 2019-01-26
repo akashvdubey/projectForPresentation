@@ -1,5 +1,6 @@
-x=list(input("enter the master word"))
+x=list(input("enter the master word "))
 r=list()
+r.insert(0,"".join(y for y in x))
 #for i in x:
 #    print(i)
 n=len(x)
@@ -17,6 +18,6 @@ for k in range(1,n):
             temp.remove('?')
         c=0
         finalstring="".join(b for b in temp)
-        r.insert(0,finalstring)
-        r.sort()
-        print(r)
+        r.insert(len(r),finalstring)
+print(r)
+print("the total possible combinations are {}".format(len(r)))
