@@ -19,5 +19,6 @@ for k in range(1,n):
         c=0
         finalstring="".join(b for b in temp)
         r.insert(len(r),finalstring)
+#r.sort()
 print(r)
-print("the total possible combinations are {}".format(len(r)))
+print("total such possible combinations are {}".format(len(r)))
