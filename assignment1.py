@@ -1,4 +1,7 @@
-x=list(input("enter the master word "))
+import sys
+x=list(sys.argv[1])
+print(x)
+#x=list(input("enter the master word "))
 r=list()
 r.insert(0,"".join(y for y in x))
 n=len(x)
@@ -17,3 +20,4 @@ for k in range(1,n):
 r.sort()
 print(r)
 print("total such possible combinations are {}".format(len(r)))
+print(sys.getrefcount(1))
